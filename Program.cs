@@ -9,27 +9,40 @@ namespace BA_C_SHARP_5
 
             // Switch Case
             
-            Console.WriteLine("Trafik lambasi hangi renk yaniyor (red, yellow, green): ");
-            string renk = Console.ReadLine();
-
-            switch (renk)
+            while (true)
             {
-                case "red": Console.WriteLine("DUR");
-                    break;
 
-                case "yellow":
-                    Console.WriteLine("HAZIRLAN");
-                    break;
+                Console.WriteLine("Trafik lambasi hangi renk yaniyor (red, yellow, green): ");
+                string renk = Console.ReadLine();
 
-                case "green":
-                    Console.WriteLine("GEC");
-                    break;
+                switch (renk)
+                {
+                    case "red":
+                    case "kirmizi"
+                        Console.WriteLine("DUR");
+                        break;
 
-                default:
-                    break;
+                    case "yellow":
+                    case "sari"
+                        Console.WriteLine("HAZIRLAN");
+                        break;
+
+                    case "green":
+                    case "yesil"
+                        Console.WriteLine("GEC");
+                        break;
+
+                    default:
+                        Console.WriteLine("Yanlis bir secim yaptiniz");
+                        break;
+
+                }
 
             }
 
+
+
+           
 
 
 
