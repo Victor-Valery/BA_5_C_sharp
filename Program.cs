@@ -8,7 +8,7 @@ namespace BA_C_SHARP_5
         {
 
             // Switch Case
-            
+
             while (true)
             {
 
@@ -39,16 +39,6 @@ namespace BA_C_SHARP_5
                 }
 
             }
-
-
-
-           
-
-
-
-
-
-
 
         }
     }
