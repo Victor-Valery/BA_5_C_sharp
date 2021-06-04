@@ -13,22 +13,22 @@ namespace BA_C_SHARP_5
             {
 
                 Console.WriteLine("Trafik lambasi hangi renk yaniyor (red, yellow, green): ");
-                string renk = Console.ReadLine();
+                string renk = Console.ReadLine().ToLower();
 
                 switch (renk)
                 {
                     case "red":
-                    case "kirmizi"
+                    case "kirmizi":
                         Console.WriteLine("DUR");
                         break;
 
                     case "yellow":
-                    case "sari"
+                    case "sari":
                         Console.WriteLine("HAZIRLAN");
                         break;
 
                     case "green":
-                    case "yesil"
+                    case "yesil":
                         Console.WriteLine("GEC");
                         break;
 
